@@ -1,3 +1,3 @@
 string = "a, b,  c, d  ,  e  "
 
-puts string.split(",").flatten
+puts string.split(",").strip
