@@ -1,1 +1,3 @@
-# Your code goes here!
+string = "a, b,  c, d  ,  e  "
+
+puts string.split(",")
