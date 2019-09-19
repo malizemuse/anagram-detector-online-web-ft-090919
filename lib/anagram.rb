@@ -1,3 +1,8 @@
 string = "a, b,  c, d  ,  e  "
 
-puts string.split(",").strip
+
+new_array = []
+
+string.split(",").each { |char|
+  
+}
